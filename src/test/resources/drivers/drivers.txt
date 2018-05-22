@@ -1,0 +1,1 @@
+Empty file required so that upon creating build, resources/drivers directory is created and the driver file is downloaded to build output folder

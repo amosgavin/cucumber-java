@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="cucumber" thread-count="0" parallel="none" verbose="1">
+    <test name="cucumber">
+        <classes>
+            <class name="com.example.cucumber.CukesRunner" />
+        </classes>
+    </test>
+</suite>

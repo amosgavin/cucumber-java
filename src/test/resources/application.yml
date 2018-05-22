@@ -1,0 +1,24 @@
+# ===================================================================
+# Browser specific properties
+#
+# valid browser parameters include CHROME, FIREFOX
+# ===================================================================
+
+global:
+  chromeDriverVersion: 2.35
+
+local:
+    browser: CHROME
+
+# ===================================================================
+# Application under test properties
+# ===================================================================
+
+environment:
+  baseurl: https://www.amazon.co.uk/
+
+# ===================================================================
+# Reporting specific properties
+# ===================================================================
+
+failureScreenshots: true
